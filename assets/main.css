@@ -190,20 +190,20 @@ body {
   position: relative;
 }
 
-.statuses .status.main-user {
+.statuses .status.main_user {
   background-color: var(--secondaryColor);
   border-radius: 15px;
   border: 2px solid var(--tertierColor);
 }
 
-.statuses .status.main-user .photo {
+.statuses .status.main_user .photo {
   height: 65%;
   border: 0;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
 }
 
-.statuses .status.main-user .plus-icon {
+.statuses .status.main_user .plus-icon {
   position: absolute;
   top: 65%;
   left: 50%;
@@ -216,7 +216,7 @@ body {
   border: 3px solid var(--secondaryColor);
 }
 
-.statuses .status.main-user .username {
+.statuses .status.main_user .username {
   bottom: 5px;
   left: 50%;
   transform: translateX(-50%);
